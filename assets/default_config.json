@@ -1,0 +1,84 @@
+{           "name": "WifiScanner",
+            "version":1,
+            "dataArchivePeriod":3600,
+            "dataRequests": {
+            "edu.mit.media.funf.probe.builtin.LocationProbe": [
+                { "PERIOD": 300, "DURATION": 30 }
+            ],
+            "edu.mit.media.funf.probe.builtin.BluetoothProbe": [
+                { "PERIOD": 300 }
+            ],
+            "edu.mit.media.funf.probe.builtin.WifiProbe": [
+                { "PERIOD": 300 }
+            ],
+            "edu.mit.media.funf.probe.builtin.ContactProbe": [
+                { "PERIOD": 86400 }
+            ],
+            "edu.mit.media.funf.probe.builtin.CallLogProbe": [
+                { "PERIOD": 86400 }
+            ],
+            "edu.mit.media.funf.probe.builtin.AccelerometerSensorProbe": [
+                { "PERIOD": 180, "DURATION": 5 }
+            ],
+            "edu.mit.media.funf.probe.builtin.GravitySensorProbe": [
+                { "PERIOD": 180, "DURATION": 5 }
+            ],
+            "edu.mit.media.funf.probe.builtin.GyroscopeSensorProbe": [
+                { "PERIOD": 180, "DURATION": 5 }
+            ],
+            "edu.mit.media.funf.probe.builtin.OrientationSensorProbe": [
+                { "PERIOD": 180, "DURATION": 5 }
+            ],
+            "edu.mit.media.funf.probe.builtin.RotationVectorSensorProbe": [
+                { "PERIOD": 180, "DURATION": 5 }
+            ],
+            "edu.mit.media.funf.probe.builtin.ActivityProbe": [
+                { "PERIOD": 60, "DURATION": 5 }
+            ],
+            "edu.mit.media.funf.probe.builtin.LightSensorProbe": [
+                { "PERIOD": 300, "DURATION": 5 }
+            ],
+            "edu.mit.media.funf.probe.builtin.ProximitySensorProbe": [
+                { "PERIOD": 300, "DURATION": 5 }
+            ],
+            "edu.mit.media.funf.probe.builtin.MagneticFieldSensorProbe": [
+                { "PERIOD": 300, "DURATION": 5 }
+            ],
+            "edu.mit.media.funf.probe.builtin.PressureSensorProbe": [
+                { "PERIOD": 300, "DURATION": 5 }
+            ],
+            "edu.mit.media.funf.probe.builtin.TemperatureSensorProbe": [
+                { "PERIOD": 300, "DURATION": 5 }
+            ],
+            "edu.mit.media.funf.probe.builtin.AndroidInfoProbe": [
+                { "PERIOD": 86400 }
+            ],
+	        "edu.mit.media.funf.probe.builtin.BatteryProbe": [
+	            { "PERIOD": 300, "DURATION": 5 }
+			],
+            "edu.mit.media.funf.probe.builtin.HardwareInfoProbe": [
+                { "PERIOD": 86400 }
+            ],
+            "edu.mit.media.funf.probe.builtin.TimeOffsetProbe": [
+                { "PERIOD": 21600 }
+            ],
+            "edu.mit.media.funf.probe.builtin.TelephonyProbe": [
+                { "PERIOD": 21600 }
+            ],
+            "edu.mit.media.funf.probe.builtin.RunningApplicationsProbe": [
+                { "PERIOD": 900 }
+            ],
+            "edu.mit.media.funf.probe.builtin.ApplicationsProbe": [
+                { "PERIOD": 3600 }
+            ],
+            "edu.mit.media.funf.probe.builtin.ScreenProbe": [
+                { }
+            ],
+            "edu.mit.media.funf.probe.builtin.BrowserBookmarksProbe": [
+                { "PERIOD": 3600 }
+            ],
+            "edu.mit.media.funf.probe.builtin.BrowserSearchesProbe": [
+                { "PERIOD": 3600 }
+            ]
+      }
+}
